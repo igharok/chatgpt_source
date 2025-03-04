@@ -205,3 +205,7 @@ def ison_standartize(ser_to_manage, arr_truncate, ser_weight = False, reuse_outl
         ser_result = multistep_standartize(ser_to_manage, arr_truncate, ser_weight, reuse_outliers, center_result, full_result)
     ### Results output:
     return ser_result
+
+### TEST EXAMPLE
+def test_func(a, b):
+    return a ** b
